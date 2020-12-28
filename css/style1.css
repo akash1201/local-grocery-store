@@ -1,0 +1,178 @@
+.sidebar__item ul li .activeprod1{
+
+    color:#7fad39;
+    font-weight: bold;
+}
+
+#carttotal{
+
+    border:0px;
+    text-align:center;
+     color:red;
+     font-weight:bold;
+}
+
+.col-lg-6 .shoping__continue .shoping__discount .inp{
+
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+}
+
+#rproduct form, #rproduct h3 {
+
+    margin-left:35%;
+}
+
+#rproduct form input[type=text],#rproduct form input[type=file]{
+
+    
+    width:40%;
+    font-size: 125%;
+    border: 2px solid black;
+    text-align:center;
+    border-radius: 10px;
+
+}
+#rproduct form input[type=submit]{
+
+  border:0px;
+  margin-left:15%;
+  padding-left:4%;
+  padding-right:4%;
+  padding-top:0.5%;
+  padding-bottom:0.5%;
+  border-radius:5px;
+  font-weight: bold;
+  color:white;
+  background-color:#7fad39;
+
+
+}
+#cate option{
+    
+    width:40%;
+
+}
+
+.order1{
+
+    text-align: center;
+}
+
+
+
+#bigscreen{
+    display:initial;
+}
+#smallscreen{
+ 
+    display:none;
+    width:200%;
+}
+#result #sp1 .featured__item #atcbut{
+    display:none;
+}
+@media only screen and (max-width:900px){
+
+
+    #bigscreen{
+        display:none;
+    }
+    #smallscreen{
+     
+        display:initial;
+        
+
+    }
+#result #sp1 .featured__item{
+
+  display:flex;
+
+}
+
+#result #sp1 .featured__item #fimg{
+    width:40%;
+    height: initial;
+}
+#result #sp1 .featured__item #fimg ul li{
+
+    display: none;
+}
+#result #sp1 .featured__item #ftext{
+    width:40%;
+    font-size: initial;
+}
+#result #sp1 .featured__item #atcbut{
+    
+    display: initial;
+    width: 20%;
+    margin-top:7%;
+    margin-left:5%;
+
+}
+
+#result #sp1 .featured__item #atcbut button{
+
+   width:100%;
+   font-size: 60%;
+   border:0px;
+   background-color:#7fad39;
+   color:white;
+   font-weight: bold;
+   border-radius: 15px;
+   padding:5px;
+
+}
+
+}
+
+#submit1{
+    width:100%;
+    border:0px;
+}
+
+.product-details{
+     width:100%;
+    display:flex;
+}
+
+.product-details .product-name{
+
+    width: 60%;
+}
+.product-details .product-name p{
+
+word-wrap: break-word;
+
+}
+
+.product-details .product-ingedrients{
+    width:40%;
+    border-left:1px solid black;
+}
+
+.product-details .product-ingedrients h3{
+
+    text-align:center;
+}
+
+@media only screen and (max-width:900px){
+    
+    
+.product-details{
+    width:100%;
+   display:initial;
+}
+
+.product-details .product-name{
+
+   width:initial;
+}
+
+.product-details .product-ingedrients{
+    width:initial;
+}
+
+}
